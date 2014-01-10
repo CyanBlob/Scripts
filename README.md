@@ -11,6 +11,10 @@ I recommend giving this execute permissions, copying it into /usr/bin, and then 
 into your crontab (crontab -e).
 NOTE: When adding this into crontab, a blank line is required at the end of the file.
 
+vol.sh
+======
+Prints alsa audio level. Prints "mute" if the device is muted.
+
 m4a2mp3.sh
 ==========
-Looks in a directory and converts .m4a audio files to .mp3
+Looks in a directory and converts .m4a audio files to .mp3.
